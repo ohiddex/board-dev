@@ -26,11 +26,11 @@
                 </div> 
             </div>
             <div class="flex gap-4">
-                <div class="btn gap-3 rounded-xl">
+                <div class="btn gap-4  rounded-full">
                     <img src="assets/checkbox.png" alt="checkbox">
                     <h4 class="font-black text-2xl ">23</h4>
                 </div>
-                <div class="bg-[#F4F7FF] btn rounded-full p-2">
+                <div class="bg-[#F4F7FF] btn  rounded-full p-1 ">
                     <img src="assets/theme-btn.png" alt="" class="w-10 h-10 ">
                 </div>
             </div>
@@ -44,96 +44,134 @@
         <div class="grid p-1 md:grid-cols-4 gap-4">
             <!-- Task card 1 -->
             <div class="flex p-4 rounded-lg bg-[#F4F7FF] justify-center items-center gap-3">
-                <img class="w-6 h-6" src="assets/checkbox.png" alt="">
+               <div class="bg-white rounded-full p-4">
+                <img class="w-6 h-6 " src="assets/checkbox.png" alt="">
+            </div>
                 <div>
                     <p class="text-sm text-gray-500">Task Assigned</p>
                     <h3 class="text-3xl font-bold">06</h3>
                 </div>
             </div>
 
-            <!-- Task card 2 (Middle) -->
+            <!-- Task card 2  -->
             <div class="p-6 md:pl-16 rounded-[12px] text-white flex items-center gap-2 md:col-span-2 bg-[linear-gradient(130.70deg,_rgb(55,_82,_253)_0.419%,_rgb(108,_127,_250)_52.66%,_rgb(155,_168,_248)_99.733%)]">
 
                 <img class="w-15 h-15" src="assets/board.png" alt="">
                 <p class="text-lg font-semibold">Discover Something <br> New Today!</p>
             </div>
 
-            <!-- Task card 3 (Right) -->
+            <!-- Task card 3  -->
             <div class="flex p-4 rounded-lg bg-[#F4F7FF] justify-center items-center gap-4">
+                <div class="bg-white rounded-full p-4">
                 <img class="w-6 h-6" src="assets/calender.png" alt="">
+            </div>
                 <div>
                     <p class="text-gray-500 text-sm">Wed,</p>
-                    <h3 class="text-2xl font-bold text-blue-600">Jul 28 2025</h3>
+                    <h3 class="text-xl font-bold text-blue-600">Jul 28 2025</h3>
                 </div>
             </div>
         </div>
 
-        <!-- Additional Task Section -->
+        <!-- 6 card section  -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
-            <!-- Task Cards -->
-            <div class="bg-white p-4 rounded-lg shadow-md">
-                <span class="text-xs text-[#00303C] bg-gray-200 px-2 py-1 rounded-full">ShopEase</span>
-                <h3 class="font-bold mt-2">Fix Mobile Button Issue</h3>
-                <p class="text-sm text-gray-500 mt-1">Debug using Chrome DevTools, check for overlapping...</p>
-                <p class="text-xs text-gray-600 mt-3">Deadline</p>
-                <p class="text-sm font-semibold">21 March 2025</p>
-                <button class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm mt-3">Completed</button>
+            <!-- Task Cards 1-->
+            <div class="bg-[#F4F7FF] px-8 py-10 rounded-lg">
+                <span class="text-sm bg-white px-4 py-2 rounded-lg ">ShopEase</span>
+                <h3 class="font-semibold mt-3 text-xl">Fix Mobile Button Issue</h3>
+                <div class="mt-2 text-center bg-white px-6 py-2 rounded-lg">
+                <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p></div>
+                <div class="flex justify-between items-center mt-4">
+                    <div class="mt-2">
+                        <p class="text-xs text-gray-600">Deadline</p>
+                        <p class="text-sm font-semibold">21 March 2025</p>
+                    </div>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                </div>
+            </div>
+            
+ <!-- Task Cards 2-->
+ <div class="bg-[#F4F7FF] px-8 py-10 rounded-lg">
+    <span class="text-sm bg-white px-4 py-2 rounded-lg ">CloudSync</span>
+    <h3 class="font-semibold mt-3 text-xl">Add Dark Mode</h3>
+    <div class="mt-2 text-center bg-white px-6 py-2 rounded-lg">
+    <p class="text-xs text-gray-500 ">Store the user's preference in localStorage, update CSS...</p></div>
+    <div class="flex justify-between items-center mt-4">
+        <div class="mt-2">
+            <p class="text-xs text-gray-600">Deadline</p>
+            <p class="text-sm font-semibold">21 March 2025</p>
+        </div>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+    </div>
+</div>
+
+             <!-- Task Cards 3-->
+             <div class="bg-[#F4F7FF] px-8 py-10 rounded-lg">
+                <span class="text-sm bg-white px-4 py-2 rounded-lg ">SwiftPay</span>
+                <h3 class="font-semibold mt-3 text-xl">Optimize  Home page </h3>
+                <div class="mt-2 text-center bg-white px-6 py-2 rounded-lg">
+                <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping... </p></div>
+                <div class="flex justify-between items-center mt-4">
+                    <div class="mt-2">
+                        <p class="text-xs text-gray-600">Deadline</p>
+                        <p class="text-sm font-semibold">21 March 2025</p>
+                    </div>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                </div>
             </div>
 
-            <div class="bg-white p-4 rounded-lg shadow-md">
-                <span class="text-xs text-gray-500 bg-gray-200 px-2 py-1 rounded-full">CloudSync</span>
-                <h3 class="font-bold mt-2">Add Dark Mode</h3>
-                <p class="text-sm text-gray-500 mt-1">Store user preferences in localStorage...</p>
-                <p class="text-xs text-gray-600 mt-3">Deadline</p>
-                <p class="text-sm font-semibold">21 March 2025</p>
-                <button class="bg-gray-300 text-gray-700 px-4 py-1 rounded-full text-sm mt-3">Completed</button>
+            <!-- Task Cards 4-->
+            <div class="bg-[#F4F7FF] px-8 py-10 rounded-lg">
+                <span class="text-sm bg-white px-4 py-2 rounded-lg ">Meta</span>
+                <h3 class="font-semibold mt-3 text-xl">Add new emoji 🤲</h3>
+                <div class="mt-2 text-center bg-white px-6 py-2 rounded-lg">
+                <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p></div>
+                <div class="flex justify-between items-center mt-4">
+                    <div class="mt-2">
+                        <p class="text-xs text-gray-600">Deadline</p>
+                        <p class="text-sm font-semibold">21 March 2025</p>
+                    </div>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                </div>
             </div>
-
-            <div class="bg-white p-4 rounded-lg shadow-md">
-                <span class="text-xs text-gray-500 bg-gray-200 px-2 py-1 rounded-full">SwiftPay</span>
-                <h3 class="font-bold mt-2">Optimize Home Page</h3>
-                <p class="text-sm text-gray-500 mt-1">Debug using Chrome DevTools...</p>
-                <p class="text-xs text-gray-600 mt-3">Deadline</p>
-                <p class="text-sm font-semibold">21 March 2025</p>
-                <button class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm mt-3">Completed</button>
+            <!-- Task Cards 5-->
+            <div class="bg-[#F4F7FF] px-8 py-10 rounded-lg">
+                <span class="text-sm bg-white px-4 py-2 rounded-lg ">Google LLC</span>
+                <h3 class="font-semibold mt-3 text-xl">Integrate OpenAI API </h3>
+                <div class="mt-2 text-center bg-white px-6 py-2 rounded-lg">
+                <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping_</p></div>
+                <div class="flex justify-between items-center mt-4">
+                    <div class="mt-2">
+                        <p class="text-xs text-gray-600">Deadline</p>
+                        <p class="text-sm font-semibold">21 March 2025</p>
+                    </div>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                </div>
             </div>
-
-            <div class="bg-white p-4 rounded-lg shadow-md">
-                <span class="text-xs text-gray-500 bg-gray-200 px-2 py-1 rounded-full">Meta</span>
-                <h3 class="font-bold mt-2">Add New Emoji 🤩</h3>
-                <p class="text-sm text-gray-500 mt-1">Debug using Chrome DevTools...</p>
-                <p class="text-xs text-gray-600 mt-3">Deadline</p>
-                <p class="text-sm font-semibold">21 March 2025</p>
-                <button class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm mt-3">Completed</button>
-            </div>
-
-            <div class="bg-white p-4 rounded-lg shadow-md">
-                <span class="text-xs text-gray-500 bg-gray-200 px-2 py-1 rounded-full">Google LLC</span>
-                <h3 class="font-bold mt-2">Integrate OpenAI API</h3>
-                <p class="text-sm text-gray-500 mt-1">Debug using Chrome DevTools...</p>
-                <p class="text-xs text-gray-600 mt-3">Deadline</p>
-                <p class="text-sm font-semibold">21 March 2025</p>
-                <button class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm mt-3">Completed</button>
-            </div>
-
-            <div class="bg-white p-4 rounded-lg shadow-md">
-                <span class="text-xs text-gray-500 bg-gray-200 px-2 py-1 rounded-full">Glassdoor</span>
-                <h3 class="font-bold mt-2">Improve Job Searching</h3>
-                <p class="text-sm text-gray-500 mt-1">Debug using Chrome DevTools...</p>
-                <p class="text-xs text-gray-600 mt-3">Deadline</p>
-                <p class="text-sm font-semibold">21 March 2025</p>
-                <button class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm mt-3">Completed</button>
+             <!-- Task Cards 6-->
+             <div class="bg-[#F4F7FF] px-8 py-10 rounded-lg">
+                <span class="text-sm bg-white px-4 py-2 rounded-lg ">Glassdoar</span>
+                <h3 class="font-semibold mt-3 text-xl">Improve Job searching </h3>
+                <div class="mt-2 text-center bg-white px-6 py-2 rounded-lg">
+                <p class="text-xs text-gray-500 ">Debug using Chrome DevTools, check for overlapping...</p></div>
+                <div class="flex justify-between items-center mt-4">
+                    <div class="mt-2">
+                        <p class="text-xs text-gray-600">Deadline</p>
+                        <p class="text-sm font-semibold">21 March 2025</p>
+                    </div>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Right Section -->
-    <div class="bg-white p-4 rounded-lg shadow-md">
-        <h3 class="text-lg font-bold flex items-center gap-2"><span>🕒</span> Activity Log</h3>
-        <button class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm mt-2">Clear History</button>
-        <div class="mt-3">
-            <p class="text-sm bg-gray-100 p-2 rounded-md">You have completed the task "Add Dark Mode" at 12:48:15 PM</p>
-            <p class="text-sm bg-gray-100 p-2 rounded-md mt-2">You have completed the task "Add Dark Mode" at 12:48:15 PM</p>
+    <div class=" bg-white p-4 rounded-lg ">
+       <div class="flex justify-center text-center mt-2">
+        <h3 class="text-lg font-bold flex items-center gap-2"><span><img src="assets/activity.png" alt=""></span> Activity Log</h3></div>
+        <div class="flex justify-center text-center mt-2"><button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Clear History</button></div>
+        <div class="mt-4 text-center">
+            <p class="text-xs bg-gray-100 p-6 rounded-md ">You have completed the task "Add Dark Mode" at 12:48:15 PM</p>
+            <p class="text-xs bg-gray-100 p-6 rounded-md mt-2">You have completed the task "Add Dark Mode" at 12:48:15 PM</p>
         </div>
     </div>
 </div>
