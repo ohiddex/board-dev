@@ -1,12 +1,12 @@
-const buttons = document.querySelectorAll(".btn-complete");
+let buttons = document.querySelectorAll(".btn-complete");
 let activitiesLog = document.getElementById("act-log");
-let counterDisplay = document.getElementById("increse+");
-let counterDisplayM = document.getElementById("reduce-");
+let counterDisplay = document.getElementById("count-increse");
+let counterDisplayM = document.getElementById("count-reduce");
 let clickedCount = 0;
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function() { 
-        let taskName = document.getElementsByTagName("h1")[i].innerText; 
+        let taskName = document.getElementsByTagName("h3")[i].innerText; 
         let date =  new Date().toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: true });
 
         let newLog = document.createElement("div");
