@@ -49,7 +49,7 @@
             </div>
                 <div>
                     <p class="text-sm text-gray-500">Task Assigned</p>
-                    <h3 id="count-reduce" class="text-3xl font-bold">06</h3>
+                    <h2 id="count-reduce" class="text-3xl font-bold">06</h2>
                 </div>
             </div>
 
@@ -165,16 +165,16 @@
     </div>
 
     <!-- Right Section -->
-    
-    <section class=" bg-white p-4 rounded-lg flex flex-col">
-      
-        <div class="flex justify-center text-center mt-2">
-        <h1  class="text-lg font-bold flex items-center gap-2"><span><img src="assets/activity.png" alt=""></span> Activity Log</h1></div>
-        <div id="clear" class="flex justify-center text-center mt-2"><button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Clear History</button></div>
-        
-    </div>
-    <div id="act-log"></div>
-</section>
+    <section class="mb-6 bg-white flex flex-col items-center justify-start gap-3 rounded-2xl ml-2 p-2 shadow-md">
+        <div class="flex flex-col gap-2 p-5  ">
+           <div class="flex gap-2 p-2 items-center"> 
+            <img class="w-6 h-6" src="./assets/activity.png" alt="">
+            <h2 class=" text-lg font-bold">Activity Log</h2>
+        </div>
+            <button id="clear" class="px-3 py-2 bg-[#3752FD] text-white rounded-lg btn">Clear History</button>
+        </div>
+        <div id="act-log"></div>
+    </section>
 <script src="script/buttons.js"></script>
 <script src="script/logic.js"></script>
 <script src="script/toggle.js"></script>

@@ -16,7 +16,9 @@ for (let i = 0; i < buttons.length; i++) {
         activitiesLog.appendChild(newLog);
 
         buttons[i].disabled = true;
-        buttons[i].innerText = "Completed";
+        console.log(buttons[i]);
+        buttons[i].classList.add('bg-stone-300')
+       
 
         alert("Board updated successfully");
 
