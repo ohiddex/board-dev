@@ -28,7 +28,7 @@
             <div class="flex gap-4">
                 <div class="btn gap-4  rounded-full">
                     <img src="assets/checkbox.png" alt="checkbox">
-                    <h4 id="count-increse" class="font-black text-2xl ">23</h4>
+                    <h4 id="increse+" class="font-black text-2xl ">23</h4>
                 </div>
                 <div class="bg-[#F4F7FF] btn  rounded-full p-1 ">
                     <img id="many-color" src="assets/theme-btn.png" alt="" class="w-10 h-10 ">
@@ -49,7 +49,7 @@
             </div>
                 <div>
                     <p class="text-sm text-gray-500">Task Assigned</p>
-                    <h3 id="count-reduce" class="text-3xl font-bold">06</h3>
+                    <h3 id="reduce-" class="text-3xl font-bold">06</h3>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
                         <p class="text-xs text-gray-600">Deadline</p>
                         <p class="text-sm font-semibold">21 March 2025</p>
                     </div>
-                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn-complete">Completed</button>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn btn-complete">Completed</button>
                 </div>
             </div>
             
@@ -100,7 +100,7 @@
             <p class="text-xs text-gray-600">Deadline</p>
             <p class="text-sm font-semibold">21 March 2025</p>
         </div>
-        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn btn-complete">Completed</button>
     </div>
 </div>
 
@@ -115,7 +115,7 @@
                         <p class="text-xs text-gray-600">Deadline</p>
                         <p class="text-sm font-semibold">21 March 2025</p>
                     </div>
-                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn btn-complete">Completed</button>
                 </div>
             </div>
 
@@ -130,7 +130,7 @@
                         <p class="text-xs text-gray-600">Deadline</p>
                         <p class="text-sm font-semibold">21 March 2025</p>
                     </div>
-                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn btn-complete">Completed</button>
                 </div>
             </div>
             <!-- Task Cards 5-->
@@ -144,7 +144,7 @@
                         <p class="text-xs text-gray-600">Deadline</p>
                         <p class="text-sm font-semibold">21 March 2025</p>
                     </div>
-                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn btn-complete">Completed</button>
                 </div>
             </div>
              <!-- Task Cards 6-->
@@ -158,21 +158,25 @@
                         <p class="text-xs text-gray-600">Deadline</p>
                         <p class="text-sm font-semibold">21 March 2025</p>
                     </div>
-                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Completed</button>
+                    <button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3 btn btn-complete">Completed</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Right Section -->
-    <div class=" bg-white p-4 rounded-lg ">
-       <div class="flex justify-center text-center mt-2">
-        <h3 class="text-lg font-bold flex items-center gap-2"><span><img src="assets/activity.png" alt=""></span> Activity Log</h3></div>
-        <div class="flex justify-center text-center mt-2"><button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Clear History</button></div>
-        <div id="act-log"></div>
+    
+    <section class=" bg-white p-4 rounded-lg ">
+      
+        <div class="flex justify-center text-center mt-2">
+        <h3 id="act-log" class="text-lg font-bold flex items-center gap-2"><span><img src="assets/activity.png" alt=""></span> Activity Log</h3></div>
+        <div id="clear" class="flex justify-center text-center mt-2"><button class="bg-blue-600 text-white px-6 py-2 rounded-lg text-sm mt-3">Clear History</button></div>
+        
     </div>
-</div>
-<script src="script/button.js"></script>
+    <div id="act-log"></div>
+</section>
+
+<script src="script/buttons.js"></script>
 <script src="script/logic.js"></script>
 <script src="script/toggle.js"></script>
 
